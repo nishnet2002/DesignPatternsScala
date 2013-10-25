@@ -3,7 +3,7 @@ package patterns.SimUDuck
 abstract class Duck(val name: String) {
 
   def swim = println("I can swim!")
-  def display = println("I look like " + name)
+  def display = println(s"I look like $name")
   def fly
   def quack
   def run = {
